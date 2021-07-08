@@ -127,7 +127,14 @@ body {
 	color:#FFF !important;
 	border-radius:50px;
 	text-align:center;
+  padding-bottom: 15px;
+  border: none;
 	box-shadow: 2px 2px 3px #999;
+  cursor: pointer;
+}
+.float:hover{
+  background-color: #0c99;
+  transition: 1s ease;
 }
 
 .my-float{

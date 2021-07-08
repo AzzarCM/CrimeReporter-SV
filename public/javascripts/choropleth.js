@@ -244,7 +244,7 @@ var button = L.control({ position: "bottomright" });
 
 button.onAdd = function (map) {
   var div = L.DomUtil.create("div", ""),
-  boton = [' <a href="#" class="float"> <i class="fa fa-plus my-float"></i> </a>'];
+  boton = [' <button class="float"> <i class="fa fa-plus my-float"></i> </button>'];
   div.innerHTML = boton.join('');
   return div;
 }
